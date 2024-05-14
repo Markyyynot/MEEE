@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="grid-container">
+
+        <!-- Header -->
+
+        <header class="header">
+
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="ri-menu-line"></span>
+            </div>
+
+            <div class="header-left">
+                <a href="homeAdmin.html"><span class="ri-close-large-fill"></span></a>
+            </div>
+
+            <div class="header-rigth">
+                <span class="ri-notification-2-fill"></span>
+                <span class="ri-mail-fill"></span>
+                <span class="ri-user-3-fill"></span>
+            </div>
+
+        </header>
+
+        <!-- End Header -->
+
+        <!-- Sidebar -->
+
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <span class="ri-shopping-cart-2-fill">PPG DASHBOARD</span>
+                </div>
+                <span class="ri-close-large-fill" onclick="closeSidebar()"></span>
+            </div>
+
+            <ul class="sidebar-list">
+                <li class="sidebar-list-item">
+                    <span class="ri-dashboard-horizontal-fill">DashBoard</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="ri-survey-fill">Inventory</span>
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="ri-wallet-3-fill">Payments</span>
+                </li>
+            </ul>
+
+        </aside>
+
+        <!-- End Sidebar -->
+
+        <!-- Main -->
+
+        <main class="main-container">
+            <div class="main-title">
+                <h2>DASHBOARD</h2>
+            </div>
+
+            <div class="main-cards">
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Inventory</h3>
+                        <span class="ri-survey-fill"></span>
+                    </div>
+                    <h1>255</h1>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Stock</h3>
+                        <span class="ri-survey-fill"></span>
+                    </div>
+                    <h1>69</h1>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Customers</h3>
+                        <span class="ri-survey-fill"></span>
+                    </div>
+                    <h1>10</h1>
+                </div>
+
+                <div class="card">
+                    <div class="card-inner">
+                        <h3>Payment</h3>
+                        <span class="ri-survey-fill"></span>
+                    </div>
+                    <h1>$420</h1>
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- End Main -->
+
+    </div>
+
+
+
+<!-- JAVASCRIPT -->
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
